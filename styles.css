@@ -130,7 +130,7 @@ model-viewer {
   transition: width 0.3s;
 }
 
-/* زر AR في أسفل الشاشة */
+/* زر View in your space بنفس تصميم ولون زر "جرّبها الآن" */
 #ar-button {
   position: absolute;
   bottom: 20px;
@@ -157,7 +157,7 @@ model-viewer {
 }
 
 #ar-button:active {
-  background-color: #E8EAED;
+  background-color: #009182; /* لون أغمق عند الضغط */
 }
 
 #ar-button:focus {
@@ -165,7 +165,7 @@ model-viewer {
 }
 
 #ar-button:focus-visible {
-  outline: 1px solid #4285f4;
+  outline: 1px solid #ffffff;
 }
 
 /* أنيميشن اليد الإرشادية بعد بدء جلسة AR */
